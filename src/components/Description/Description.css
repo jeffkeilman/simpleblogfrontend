@@ -1,0 +1,12 @@
+.Description {
+  width: 70%;
+}
+
+.Description p {
+  font-size: 2em;
+  font-weight: 220;
+}
+
+.Description span {
+  font-weight: 500;
+}

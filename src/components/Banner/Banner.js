@@ -1,5 +1,5 @@
-import bannerImage from './assets/space-banner.png'
 import './Banner.css'
+import bannerImage from './assets/space-banner.png'
 
 function Banner () {
   return (
