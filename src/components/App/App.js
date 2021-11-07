@@ -1,12 +1,10 @@
 import './App.css'
-import Banner from '../Banner/Banner'
-import Description from '../Description/Description'
+import TitleBar from '../TitleBar/TitleBar'
 
 function App () {
   return (
     <div className='App'>
-      <Banner />
-      <Description name='Jeff Keilman' />
+      <TitleBar />
     </div>
   )
 }

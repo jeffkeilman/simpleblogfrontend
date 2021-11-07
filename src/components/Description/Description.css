@@ -1,5 +1,9 @@
 .Description {
+  display: inline-block;
   width: 70%;
+  height: auto;
+  vertical-align: top;
+  padding-left: 15px;
 }
 
 .Description p {
