@@ -1,0 +1,10 @@
+.Banner {
+  display: flex;
+  justify-content: center;
+  height: 7em;
+}
+
+.Banner img {
+  height: 100%;
+  width: 100%;
+}
