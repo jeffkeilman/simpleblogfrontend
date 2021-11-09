@@ -1,9 +1,14 @@
 .Face {
   display: inline-block;
   width: 30%;
-  height: auto;
 }
 
 .Face img {
   width: 100%;
+}
+
+@media screen and (max-width: 1175px) {
+  .Face {
+    display: none;
+  }
 }

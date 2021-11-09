@@ -1,0 +1,35 @@
+.Description {
+  display: inline-block;
+  height: auto;
+  padding-left: 15px;
+  vertical-align: top;
+}
+
+.Description p {
+  font-size: 2em;
+  font-weight: 220;
+}
+
+.Description span {
+  font-weight: 500;
+}
+
+.InfoPanel {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+}
+
+.LinkParagraph {
+  margin-bottom: 10px;
+}
+
+.LinkedInLink {
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 1175px) {
+  .InfoPanel  {
+    width: 100%
+  }
+}
