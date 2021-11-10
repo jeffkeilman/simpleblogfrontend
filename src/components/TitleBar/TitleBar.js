@@ -15,6 +15,6 @@ function TitleBar () {
       <Face />
     </header>
   )
-};
+}
 
 export default TitleBar

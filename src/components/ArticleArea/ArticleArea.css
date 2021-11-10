@@ -1,0 +1,13 @@
+.ArticleArea sup {
+  font-style: italic;
+}
+
+.ArticleArea h1 {
+  margin-top: 0;
+  font-size: 2em;
+}
+
+.Article {
+  border-bottom: 1px solid #808080;
+  padding: 10px 15px;
+}

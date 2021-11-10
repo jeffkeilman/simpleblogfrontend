@@ -10,6 +10,6 @@ function Face () {
       />
     </section>
   )
-};
+}
 
 export default Face
