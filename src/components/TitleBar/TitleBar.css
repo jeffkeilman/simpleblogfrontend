@@ -1,3 +1,5 @@
 .TitleBar {
   display: block;
+  line-height: 0;
+  background-color: #ececec;
 }
