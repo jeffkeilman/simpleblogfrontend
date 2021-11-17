@@ -1,5 +1,6 @@
 import './ArticleArea.css'
 import React from 'react'
+import DateHelper from '../../DateHelper/DateHelper'
 
 const articles = [
   {
@@ -23,23 +24,12 @@ const articles = [
 ]
 
 class Description extends React.Component {
-  trimDate (dateStr) {
-    const dateArr = (
-      dateStr // Tue Nov 09 2021
-        .split(' ') // ['Tue', 'Nov', '09', '2021']
-        .slice(1) // ['Nov', '09', '2021']
-    )
-
-    dateArr[1] = dateArr[1] + ',' // ['Nov', '09,', '2021']
-    return dateArr.join(' ')
-  }
-
   mapArticles (articles) {
     if (articles && articles.length) {
       // if there are any articles
       return articles.map(article => {
         const articleDateStr = new Date(article.posted_dt).toDateString()
-        const articleDateStrTrimmed = this.trimDate(articleDateStr)
+        const articleDateStrTrimmed = DateHelper.trimDate(articleDateStr)
         const lastCharInPreview = article.preview[article.preview.length - 1]
         if (lastCharInPreview === '.') {
           // if last char in preview is a period, strip it from the preview so ... doesn't look weird

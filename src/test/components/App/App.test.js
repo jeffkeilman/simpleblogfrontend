@@ -4,6 +4,7 @@ import App from '../../../components/App/App'
 import { render } from '@testing-library/react'
 
 describe('App', () => {
+  // snapshot test
   it('renders correctly', () => {
     const app = renderer.create(<App />).toJSON()
     expect(app).toMatchSnapshot()

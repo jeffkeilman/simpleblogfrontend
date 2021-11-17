@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleArea renders correctly 1`] = `
+<section
+  className="ArticleArea"
+>
+  <article
+    className="Article"
+  >
+    <sup>
+      Posted on: 
+      Nov 09, 2021
+    </sup>
+    <h1>
+      My first article
+    </h1>
+    <p>
+      This is my first article. I'm writing it to learn about blogging. I would like to become a more proficient writer. I don't anticipate this blah blah yadda yadda doesn't matter just need some more length
+      ...
+    </p>
+  </article>
+  <article
+    className="Article"
+  >
+    <sup>
+      Posted on: 
+      Oct 21, 2021
+    </sup>
+    <h1>
+      My second article
+    </h1>
+    <p>
+      This is my second article. I'm writing it to learn about blogging. I would like to become a more proficient writer. I don't anticipate this blah blah yadda yadda doesn't matter just need some more length
+      ...
+    </p>
+  </article>
+  <article
+    className="Article"
+  >
+    <sup>
+      Posted on: 
+      Oct 03, 2021
+    </sup>
+    <h1>
+      My third article
+    </h1>
+    <p>
+      This is my third article. I'm writing it to learn about blogging. I would like to become a more proficient writer. I don't anticipate this blah blah yadda yadda doesn't matter just need some more length
+      ...
+    </p>
+  </article>
+</section>
+`;
