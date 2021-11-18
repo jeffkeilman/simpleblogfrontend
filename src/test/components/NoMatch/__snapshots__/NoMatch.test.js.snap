@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoMatch renders correctly 1`] = `
+<section
+  className="NoMatch"
+>
+  <p>
+    404! We didn't find anything at that link!
+  </p>
+  <p
+    className="HomeLink"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Take me home!
+    </a>
+  </p>
+</section>
+`;

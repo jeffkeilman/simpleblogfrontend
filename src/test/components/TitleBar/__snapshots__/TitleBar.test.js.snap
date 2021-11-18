@@ -4,9 +4,6 @@ exports[`TitleBar renders correctly 1`] = `
 <header
   className="TitleBar"
 >
-  <div
-    className="Banner"
-  />
   <section
     className="InfoPanel"
   >

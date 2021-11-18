@@ -10,13 +10,8 @@ describe('App', () => {
     expect(app).toMatchSnapshot()
   })
 
-  it('renders TitleBar', () => {
+  it('renders Banner', () => {
     const { container } = render(<App />)
-    expect(container.querySelector('.TitleBar')).toBeInTheDocument()
-  })
-
-  it('renders ArticleArea', () => {
-    const { container } = render(<App />)
-    expect(container.querySelector('.ArticleArea')).toBeInTheDocument()
+    expect(container.querySelector('.Banner')).toBeInTheDocument()
   })
 })

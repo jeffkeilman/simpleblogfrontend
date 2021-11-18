@@ -10,11 +10,6 @@ describe('TitleBar', () => {
     expect(tb).toMatchSnapshot()
   })
 
-  it('renders Banner', () => {
-    const { container } = render(<TitleBar />)
-    expect(container.querySelector('.Banner')).toBeInTheDocument()
-  })
-
   it('renders InfoPanel', () => {
     const { container } = render(<TitleBar />)
     expect(container.querySelector('.InfoPanel')).toBeInTheDocument()

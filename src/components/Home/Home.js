@@ -3,7 +3,7 @@ import ArticleArea from '../ArticleArea/ArticleArea'
 
 function Home () {
   return (
-    <div>
+    <div className='Home'>
       <TitleBar />
       <ArticleArea />
     </div>
