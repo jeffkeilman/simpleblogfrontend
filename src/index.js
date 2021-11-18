@@ -2,11 +2,25 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './components/App/App'
+import Home from './components/Home/Home'
+import NoMatch from './components/NoMatch/NoMatch'
 import reportWebVitals from './reportWebVitals'
+import {
+  BrowserRouter,
+  Route,
+  Routes
+} from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<App />}>
+          <Route path='/' element={<Home />} />
+          <Route path='*' element={<NoMatch />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 )

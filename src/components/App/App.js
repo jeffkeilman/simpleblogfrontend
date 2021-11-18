@@ -1,12 +1,12 @@
 import './App.css'
-import TitleBar from '../TitleBar/TitleBar'
-import ArticleArea from '../ArticleArea/ArticleArea'
+import Banner from '../Banner/Banner'
+import { Outlet } from 'react-router-dom'
 
 function App () {
   return (
     <div className='App'>
-      <TitleBar />
-      <ArticleArea />
+      <Banner />
+      <Outlet />
     </div>
   )
 }
