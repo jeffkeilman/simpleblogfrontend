@@ -24,6 +24,11 @@ const articles = [
 ]
 
 class Description extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = { articles: articles }
+  }
+
   mapArticles (articles) {
     if (articles && articles.length) {
       // if there are any articles
@@ -47,7 +52,7 @@ class Description extends React.Component {
   }
 
   render () {
-    const articleList = this.mapArticles(articles)
+    const articleList = this.mapArticles(this.state.articles)
     return (
       <section className='ArticleArea'>
         {articleList}
