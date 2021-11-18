@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoPanel renders with links correctly 1`] = `
+<section
+  className="InfoPanel"
+>
+  <section
+    className="Description"
+  >
+    <p>
+      Hello. My name is 
+      <span>
+        foobar
+      </span>
+      .
+    </p>
+    <p>
+      I am a 
+      <span>
+        software engineer
+      </span>
+       with a passion for 
+      <span>
+        social justice
+      </span>
+      .
+    </p>
+    <p
+      className="LinkParagraph"
+    >
+      Here are some of my 
+      <span>
+        other links
+      </span>
+      :
+    </p>
+    <a
+      href="bar"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="GitHub link"
+        className="GitHubLink"
+        src="GitHubMarkLogo.png"
+      />
+    </a>
+    <a
+      href="foo"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="LinkedIn link"
+        className="LinkedInLink"
+        src="LinkedInLogo.png"
+      />
+    </a>
+    <p>
+      And here is my 
+      <span>
+        blog
+      </span>
+      .
+    </p>
+  </section>
+</section>
+`;
+
+exports[`InfoPanel renders without links correctly 1`] = `
+<section
+  className="InfoPanel"
+>
+  <section
+    className="Description"
+  >
+    <p>
+      Hello. My name is 
+      <span>
+        foobar
+      </span>
+      .
+    </p>
+    <p>
+      I am a 
+      <span>
+        software engineer
+      </span>
+       with a passion for 
+      <span>
+        social justice
+      </span>
+      .
+    </p>
+    <p>
+      And here is my 
+      <span>
+        blog
+      </span>
+      .
+    </p>
+  </section>
+</section>
+`;

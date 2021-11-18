@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleBar renders correctly 1`] = `
+<header
+  className="TitleBar"
+>
+  <div
+    className="Banner"
+  />
+  <section
+    className="InfoPanel"
+  >
+    <section
+      className="Description"
+    >
+      <p>
+        Hello. My name is 
+        <span>
+          Jeff Keilman
+        </span>
+        .
+      </p>
+      <p>
+        I am a 
+        <span>
+          software engineer
+        </span>
+         with a passion for 
+        <span>
+          social justice
+        </span>
+        .
+      </p>
+      <p
+        className="LinkParagraph"
+      >
+        Here are some of my 
+        <span>
+          other links
+        </span>
+        :
+      </p>
+      <a
+        href="https://github.com/jeffkeilman"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="GitHub link"
+          className="GitHubLink"
+          src="GitHubMarkLogo.png"
+        />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/jeffkeilman"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="LinkedIn link"
+          className="LinkedInLink"
+          src="LinkedInLogo.png"
+        />
+      </a>
+      <p>
+        And here is my 
+        <span>
+          blog
+        </span>
+        .
+      </p>
+    </section>
+  </section>
+  <section
+    className="Face"
+  >
+    <img
+      alt="Author's face"
+      src="Face.jpg"
+    />
+  </section>
+</header>
+`;
