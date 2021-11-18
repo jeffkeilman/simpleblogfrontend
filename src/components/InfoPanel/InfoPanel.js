@@ -5,13 +5,16 @@ import LinkedInLogo from './assets/LinkedInLogo.png'
 
 class Description extends React.Component {
   render () {
+    const githuburlExists = !!this.props.githuburl
+    const linkedinurlExists = !!this.props.linkedinurl
+    const hasAnyURLs = githuburlExists || linkedinurlExists
     return (
       <section className='InfoPanel'>
         <section className='Description'>
           <p>Hello. My name is <span>{this.props.name}</span>.</p>
           <p>I am a <span>software engineer</span> with a passion for <span>social justice</span>.</p>
-          <p className='LinkParagraph'>Here are some of my <span>other links</span>:</p>
-          {!!this.props.githuburl &&
+          {hasAnyURLs && <p className='LinkParagraph'>Here are some of my <span>other links</span>:</p>}
+          {githuburlExists &&
             // if githuburl exists, render GitHub logo link
             <a href={this.props.githuburl} target='_blank' rel='noopener noreferrer'>
               <img
@@ -20,7 +23,7 @@ class Description extends React.Component {
                 className='GitHubLink'
               />
             </a>}
-          {!!this.props.linkedinurl &&
+          {linkedinurlExists &&
             // if linkedinurl exists, render LinkedIn logo link
             <a href={this.props.linkedinurl} target='_blank' rel='noopener noreferrer'>
               <img
