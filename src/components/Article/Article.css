@@ -1,0 +1,21 @@
+.BlogArticle {
+  padding: 0 15px;
+  margin-top: 10px;
+}
+
+.BlogArticle h1 {
+  font-size: 3em;
+}
+
+.BlogArticle div {
+  display: inline-flex;
+  align-items: center;
+}
+
+.BlogArticle div:hover {
+  cursor: pointer;
+}
+
+.BlogArticle div p {
+  padding-left: 10px;
+}

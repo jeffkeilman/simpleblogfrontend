@@ -4,6 +4,7 @@ import './index.css'
 import App from './components/App/App'
 import Home from './components/Home/Home'
 import NoMatch from './components/NoMatch/NoMatch'
+import Article from './components/Article/Article'
 import reportWebVitals from './reportWebVitals'
 import {
   BrowserRouter,
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Routes>
         <Route path='/' element={<App />}>
           <Route path='/' element={<Home />} />
+          <Route path='/articles/:id' element={<Article />} />
           <Route path='*' element={<NoMatch />} />
         </Route>
       </Routes>

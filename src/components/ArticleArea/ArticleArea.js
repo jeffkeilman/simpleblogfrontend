@@ -23,7 +23,7 @@ const articles = [
   }
 ]
 
-class Description extends React.Component {
+class ArticleArea extends React.Component {
   constructor (props) {
     super(props)
     this.state = { articles: articles }
@@ -61,4 +61,4 @@ class Description extends React.Component {
   }
 }
 
-export default Description
+export default ArticleArea
